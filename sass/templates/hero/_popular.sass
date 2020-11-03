@@ -1,0 +1,211 @@
+.popular
+  margin-bottom: 120px
+  &__title
+    font-family: Montserrat
+    font-style: normal
+    font-weight: 800
+    font-size: 36px
+    line-height: 44px
+    color: #000000
+    margin-bottom: 60px
+  &__card
+    cursor: pointer
+    background: #FFFFFF
+    border: 1px solid #E5E5E5
+    box-sizing: border-box
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1)
+  &__image
+    width: 100%
+    border-bottom: 1px solid #E5E5E5
+  &__img
+    position: relative
+  &__comparing
+    cursor: pointer
+    position: absolute
+    right: 0
+    bottom: 0
+    width: 40px
+    height: 40px
+    max-width: 100%
+    max-height: 100%
+    border: 1px solid #E5E5E5
+    background: url('../img/hero/hero-popular/comparing.svg') center no-repeat
+  &__comparing
+    &:hover
+      background-color: #FFD600 
+  
+  
+.popcard
+  &__block
+    padding: 20px
+  &__title
+    font-family: Montserrat
+    font-style: normal
+    font-weight: bold
+    font-size: 14px
+    line-height: 20px
+    color: #000000
+    margin-bottom: 15px
+  &__price
+    display: flex
+    justify-content: space-between
+    align-items: center
+    max-width: 180px
+
+
+  
+.price
+  margin-bottom: 15px
+  &__sale
+    font-family: Montserrat
+    font-style: normal
+    font-weight: bold
+    font-size: 14px
+    line-height: 20px
+    color: #3205F3
+  &__full
+    font-family: Montserrat
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 20px
+    color: #000000
+    
+.btn-card
+  display: flex
+  justify-content: space-between
+  width: 180px
+  max-width: 100%
+.count
+  font-family: Montserrat
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 30px
+  display: flex
+  align-items: center
+  justify-content: space-between
+  text-align: center
+  color: #333333
+  width: 120px
+  max-width: 100%
+  &__minus
+    cursor: pointer
+    width: 40px
+    height: 40px
+    max-width: 100%
+    max-height: 100%
+    border: 1px solid #E5E5E5
+    box-sizing: border-box
+  &__plus
+    cursor: pointer
+    width: 40px
+    height: 40px
+    max-width: 100%
+    max-height: 100%
+    border: 1px solid #E5E5E5
+    box-sizing: border-box
+  &__sum
+
+.btn
+  &__basket
+    width: 40px
+    height: 40px
+    max-width: 100%
+    max-height: 100%
+    cursor: pointer
+    border: none
+    background: url('../img/hero/hero-popular/basket-card.svg') center no-repeat
+    background-color: #FFD600
+
+.grid-container 
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr 1fr
+  grid-template-rows: 1fr 1fr
+  gap: 40px 40px
+
+.big-ip  
+  grid-area: 1 / 1 / 3 / 3 
+.small-microsoft  
+  grid-area: 1 / 3 / 2 / 4 
+.small-bitrix  
+  grid-area: 1 / 4 / 2 / 5 
+.small-video  
+  grid-area: 2 / 3 / 3 / 4 
+.small-mono  
+  grid-area: 2 / 4 / 3 / 5 
+
+.big
+  &--text
+    padding: 25px 0 25px 30px
+    font-family: Montserrat
+    font-style: normal
+    font-weight: 800
+    font-size: 36px
+    line-height: 44px
+    color: #000000
+    background-color: #FFD600
+.small
+  &--text
+    padding: 15px 12px 13px 10px
+    font-family: Montserrat
+    font-style: normal
+    font-weight: bold
+    font-size: 14px
+    line-height: 20px
+    color: #000000
+    background-color: #FFD600
+
+.category
+  &__block
+    position: relative
+  &__text
+    padding: 10px
+    position: absolute
+    bottom: 7.5%
+    left: 0
+
+@media all and (-ms-high-contrast:none) 
+
+.grid-container 
+  display: -ms-grid
+  -ms-grid-columns: 1fr 1fr 1fr 1fr
+  -ms-grid-rows: 1fr 1fr
+  gap: 40px 40px
+
+
+.big-ip 
+  -ms-grid-row: 1
+  -ms-grid-row-span: 2
+  -ms-grid-column: 1
+  -ms-grid-column-span: 2
+
+
+.small-microsoft 
+  -ms-grid-row: 1
+  -ms-grid-row-span: 1
+  -ms-grid-column: 3
+  -ms-grid-column-span: 3
+
+
+.small-bitrix 
+  -ms-grid-row: 1
+  -ms-grid-row-span: 1
+  -ms-grid-column: 4
+  -ms-grid-column-span: 4
+
+
+.small-video 
+  -ms-grid-row: 2
+  -ms-grid-row-span: 1
+  -ms-grid-column: 3
+  -ms-grid-column-span: 2
+
+
+.small-mono 
+  -ms-grid-row: 2
+  -ms-grid-row-span: 1
+  -ms-grid-column: 4
+  -ms-grid-column-span: 3
+
+

@@ -1,0 +1,48 @@
+.catalog
+  &__menu
+    padding-top: 40px
+    padding-bottom: 60px
+    background-color: #000
+    margin: 0
+    margin-top: -1px
+    max-height: 760px
+    transition: 1s
+    display: none
+    &--active
+      display: block
+  &__link:hover
+    color: #FFD600
+  &__link
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    list-style-type: none
+    &--left
+      margin-left: 20px
+    &--hero
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 20px
+      color: #FFFFFF
+      list-style-type: none
+    &--hero:hover
+      color: #fff
+.cat__menu
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+.cat
+  &__link
+    list-style-type: none
+  &__link:not(:last-child)
+    margin-bottom: 10px    
+
+.close
+  cursor: pointer
+  width: 18px
+  height: 18px
+  background: url('../img/header/close.svg') no-repeat
