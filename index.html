@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta sale="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/favicon/favicon.ico" type="image/png">
+  <link rel="shortcut icon" href="../img/favicon/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="shortcut icon" href="../img/favicon/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="shortcut icon" href="../img/favicon/android-chrome-192x192.png" type="image/png" sizes="192x192">
+  <link rel="shortcut icon" href="../img/favicon/android-chrome-512x512.png" type="image/png" sizes="512x512">
+  <link rel="apple-touch-icon" href="../img/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="../img/favicon/site.webmanifest">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <title>Esnow</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__container--info">
+        <div class="header__info">
+          <div class="header__logo logo">
+            <img src="img/header/logo.svg" alt="esnow-logo" class="logo__image">
+            <img src="img/header/logo-text.svg" alt="logo-text" class="logo__text">
+          </div>
+          <div class="contacts header__contacts">
+            <div class="contacts__block">
+              <span class="contacts__opening">Пн-Вс 10:00 – 18:00</span>
+              <a href="tel:+375173882177" class="contacts__phone">+375 (17) 388-21-77</a>
+              <a href="mailto:info@esnow.by" class="contacts__mail">info@esnow.by</a>
+            </div>
+            <div class="social header__social">
+              <a href="#" class="social__image social__fb"><img src="img/header/fb.svg" alt="facebook-icon"></a>
+              <a href="#" class="social__image social__insta"><img src="img/header/insta.svg" alt="instargam-icon"></a>
+              <a href="#" class="social__image social__vk"><img src="img/header/vk.svg" alt="vk-icon"></a>
+            </div>
+          </div>
+        </div>
+        <div class="menu header__menu">
+          <nav class="desktop top-menu">
+            <ul class="top-menu__links">
+              <li><a href="#" class="top-menu--link">О магазине</a></li>
+              <li><a href="#" class="top-menu--link">Оплата</a></li>
+              <li><a href="#" class="top-menu--link">Доставка</a></li>
+              <li><a href="#" class="top-menu--link">Гарантия</a></li>
+              <li><a href="#" class="top-menu--link">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="enter menu__enter">
+            <form class="enter__form" id="content">
+              <input type="search" sale="search" class="input" id="search-input" placeholder="Поиск">
+            </form>
+            <img src="img/header/enter.svg" alt="autorisation" class="enter__autorisation">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__order">
+      <div class="container header__order--info">
+        <nav class="desktop bottom-menu">
+          <ul class="bottom-menu__links">
+            <li><a href="#" class="bottom-menu--link bottom-menu--link--yellow">Каталог</a></li>
+            <li><a href="#" class="bottom-menu--link">Новости</a></li>
+          </ul>
+        </nav>
+        <div class="header__catalog">
+          <div class="header__comparing">
+            <img src="img/header/comparing.svg" alt="comparing" class="comparing__image">
+            <span class="count__comparing"><sup>1</sup></span>
+          </div>
+          <div class="header__busket">
+            <img src="img/header/busket.svg" alt="busket" class="busket__image">
+            <span class="count__busket"><sup>1</sup></span>
+          </div>
+          <span class="header__price"><span class="sum-busket">1280,00</span>&nbsp;BYN</span>
+        </div>
+      </div>
+    </div>
+    <div class="catalog__menu">
+     <div class="container cat__menu">
+      <ul>
+        <li class="cat__link"><a href="#" class="catalog__link--hero">IP телефония [VOIP]</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">DECT-телефоны</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">IP-DECT-системы Gigaset Pro</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">SIP-домофоны</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">VoIP-шлюзы</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Взрывозащищенные телефоны</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Видеотелефоны</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Консоли мониторинга и оповещения</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Конференц-телефоны</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Настольные телефоны</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Отельные телефоны</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Системы видеоконференций</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Телефоны для Call-центра</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Телефоны для Skype for Business</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Телефоны для Microsoft Teams</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link--hero">Проекторы и аксесуары</a></li>
+      </ul>
+      <ul>
+        <li class="cat__link"><a href="#" class="catalog__link--hero">Программное обеспечение</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Microsoft</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link catalog__link--left">CSP</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Антивирус Касперского</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link catalog__link--left">Антивирусы</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link catalog__link--left">Облачные продукты</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link catalog__link--left">Продукты для Mac</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link catalog__link--left">Сервисные пакеты</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Битрикс</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link catalog__link--left">1C-Битрикс: Битрикс24 (коробочная версия)</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link catalog__link--left">1C-Битрикс: Битрикс24 (облако)</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link catalog__link--left">1C-Битрикс: Управление сайтом</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link--hero">Принтеры и МФУ</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Расходные материалы</a></li>
+      </ul>
+      <ul>
+        <li class="cat__link"><a href="#" class="catalog__link--hero">Компьютерная техника</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Компьютеры</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Моноблоки</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Неттопы</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Ноутбуки и аксессуары</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Планшеты</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Мониторы</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link--hero">Компьютерные комплектующие</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Жесткие диски</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Оперативная память </a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Блоки питания</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Процессоры</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link">Материнские платы</a></li>
+        <li class="cat__link"><a href="#" class="catalog__link--hero">ИБП и комплектующие</a></li>
+      </ul>
+    </ul>
+    <ul>
+      <li class="cat__link"><a href="#" class="catalog__link--hero">Видеонаблюдение</a></li>
+      <li class="cat__link"><a href="#" class="catalog__link">Камеры видеонаблюдения</a></li>
+      <li class="cat__link"><a href="#" class="catalog__link">Сетевые видеорегистраторы</a></li>
+      <li class="cat__link"><a href="#" class="catalog__link">Комплекты </a></li>
+      <li class="cat__link"><a href="#" class="catalog__link">Фотоловушки</a></li>
+      <li class="cat__link"><a href="#" class="catalog__link">Аксессуары</a></li>
+      <li class="cat__link"><a href="#" class="catalog__link">Программное обеспечение </a></li>
+      <li class="cat__link"><a href="#" class="catalog__link--hero">Сетевое оборудование</a></li>
+      <li class="cat__link"><a href="#" class="catalog__link">Беспроводные маршрутизаторы</a></li>
+      <li class="cat__link"><a href="#" class="catalog__link">Коммутаторы</a></li>
+      <li class="cat__link"><a href="#" class="catalog__link">Маршрутизаторы</a></li>
+      <li class="cat__link"><a href="#" class="catalog__link">Медиаконвертеры</a></li>
+      <li class="cat__link"><a href="#" class="catalog__link--hero">Серверы</a></li>
+    </ul>
+    <span class="close"></span>
+     </div>
+    </div>
+  </header>
+
+
+
+  <!-- Мэйн -->
+  <main class="hero">
+    <section class="slider hero__slider">
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper swiper-no-swiping">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img class="swipper-image" src="img/hero/hero-slider/slide1.jpg" alt="slide1">
+            <div class="swipper-info">
+              <h1 class="swipper-title">Безопасность Вашего офиса</h1>
+              <h3 class="swipper-subtitle">Благодаря камерам наблюдения вы успеете закрыть дверь перед приходом ОМОНа и
+                наблюдать за действиями силовиков на своем мониторе</h3>
+              <a href="" class="swipper-btn">В каталог</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="swipper-image" src="img/hero/hero-slider/slide1.jpg" alt="slide1">
+            <div class="swipper-info">
+              <h1 class="swipper-title">Безопасность Вашего офиса</h1>
+              <h3 class="swipper-subtitle">Благодаря камерам наблюдения вы успеете закрыть дверь перед приходом ОМОНа и
+                наблюдать за действиями силовиков на своем мониторе</h3>
+              <a href="" class="swipper-btn">В каталог</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="swipper-image" src="img/hero/hero-slider/slide1.jpg" alt="slide1">
+            <div class="swipper-info">
+              <h1 class="swipper-title">Безопасность Вашего офиса</h1>
+              <h3 class="swipper-subtitle">Благодаря камерам наблюдения вы успеете закрыть дверь перед приходом ОМОНа и
+                наблюдать за действиями силовиков на своем мониторе</h3>
+              <a href="" class="swipper-btn">В каталог</a>
+            </div>
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+    <section class="hero__partners">
+      <div class="container">
+        <div class="partners">
+          <div class="partners__images">
+            <img src="img/hero/hero-partners/bitrix.jpg" alt="bitrix">
+            <img src="img/hero/hero-partners/microsoft.jpg" alt="microsoft">
+          </div>
+          <div class="partners__info partner">
+            <h2 class="partner__title">Золото от 1С-Битрикс, серебро от Microsoft</h2>
+            <div class="partner__subtitle">
+              <p>Золотой сертифицированный партнер — это высший партнерский статус «1С-Битрикс». Статус получают
+                партнеры, имеющие богатый опыт разработки веб-проектов, в том числе сложных программных решений на
+                основе «1С-Битрикс: Управление сайтом». Сотрудники компании партнера успешно прошли все имеющиеся
+                учебные курсы, сдали тесты и получили сертификаты специалистов.</p>
+              <p>Золотой сертифицированный партнер обладает большим количеством крупных и средних проектов,
+                разработанных на основе продукта.</p>
+            </div>
+          </div>
+        </div>
+        <div class="popular hero__popular">
+          <h2 class="popular__title">Популярные товары</h2>
+          <div class="popular__slider">
+            <!-- Slider main container -->
+            <div class="swiper-container swiper-container-popular">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper swiper-no-swiping">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-1">
+                      <div class="popular__card">
+                        <div class="popular__img">
+                          <img src="img/hero/hero-popular/card.jpg" alt="card-image" class="popular__image">
+                          <span class="popular__comparing"></span>
+                        </div>
+                        <div class="popcard__block">
+                          <div class="popcard popular__info">
+                            <h3 class="popcard__title">IP-камера 4Мп Hikvision DS-2CD2942F с объективом «рыбий глаз»
+                            </h3>
+                            <div class="popcard__price price">
+                              <span class="price__sale">616,80 руб</span>
+                              <span class="price__full"><s>854,00 руб</s></span>
+                            </div>
+                          </div>
+                          <div class="popcard__buttons btn-card">
+                            <div class="btn__count count">
+                              <span data-minus class="count__minus">-</span>
+                              <span data-sum class="count__sum">1</span>
+                              <span data-plus class="count__plus">+</span>
+                            </div>
+                            <button class="btn__basket"></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-1">
+                      <div class="popular__card">
+                        <div class="popular__img">
+                          <img src="img/hero/hero-popular/card.jpg" alt="card-image" class="popular__image">
+                          <span class="popular__comparing"></span>
+                        </div>
+                        <div class="popcard__block">
+                          <div class="popcard popular__info">
+                            <h3 class="popcard__title">IP-камера 4Мп Hikvision DS-2CD2942F с объективом «рыбий глаз»
+                            </h3>
+                            <div class="popcard__price price">
+                              <span class="price__sale">616,80 руб</span>
+                              <span class="price__full"><s>854,00 руб</s></span>
+                            </div>
+                          </div>
+                          <div class="popcard__buttons btn-card">
+                            <div class="btn__count count">
+                              <span data-minus class="count__minus">-</span>
+                              <span data-sum class="count__sum">1</span>
+                              <span data-plus class="count__plus">+</span>
+                            </div>
+                            <button class="btn__basket"></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-1">
+                      <div class="popular__card">
+                        <div class="popular__img">
+                          <img src="img/hero/hero-popular/card.jpg" alt="card-image" class="popular__image">
+                          <span class="popular__comparing"></span>
+                        </div>
+                        <div class="popcard__block">
+                          <div class="popcard popular__info">
+                            <h3 class="popcard__title">IP-камера 4Мп Hikvision DS-2CD2942F с объективом «рыбий глаз»
+                            </h3>
+                            <div class="popcard__price price">
+                              <span class="price__sale">616,80 руб</span>
+                              <span class="price__full"><s>854,00 руб</s></span>
+                            </div>
+                          </div>
+                          <div class="popcard__buttons btn-card">
+                            <div class="btn__count count">
+                              <span data-minus class="count__minus">-</span>
+                              <span data-sum class="count__sum">1</span>
+                              <span data-plus class="count__plus">+</span>
+                            </div>
+                            <button class="btn__basket"></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-1">
+                      <div class="popular__card">
+                        <div class="popular__img">
+                          <img src="img/hero/hero-popular/card.jpg" alt="card-image" class="popular__image">
+                          <span class="popular__comparing"></span>
+                        </div>
+                        <div class="popcard__block">
+                          <div class="popcard popular__info">
+                            <h3 class="popcard__title">IP-камера 4Мп Hikvision DS-2CD2942F с объективом «рыбий глаз»
+                            </h3>
+                            <div class="popcard__price price">
+                              <span class="price__sale">616,80 руб</span>
+                              <span class="price__full"><s>854,00 руб</s></span>
+                            </div>
+                          </div>
+                          <div class="popcard__buttons btn-card">
+                            <div class="btn__count count">
+                              <span data-minus class="count__minus">-</span>
+                              <span data-sum class="count__sum">1</span>
+                              <span data-plus class="count__plus">+</span>
+                            </div>
+                            <button class="btn__basket"></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev swiper-button-prev-popular"></div>
+              <div class="swiper-button-next swiper-button-next-popular"></div>
+            </div>
+          </div>
+        </div>
+        <div class="category hero__category">
+          <div class="grid-container">
+            <a href="#" class="category__block big-ip">
+              <img src="img/hero/hero-popular/ip.jpg" alt="ip">
+              <span class="category__text big--text">IP-телефония</span>
+            </a>
+            <a href="#" class="category__block small small-microsoft">
+              <img src="img/hero/hero-popular/microsoft.jpg" alt="microsoft">
+              <span class="category__text small--text">Microsoft Office 365</span>
+            </a>
+            <a href="#" class="category__block small-bitrix">
+              <img src="img/hero/hero-popular/bitrix.jpg" alt="bitrix">
+              <span class="category__text small--text">Битрикс 24</span>
+            </a>
+            <a href="#" class="category__block small small-video">
+              <img src="img/hero/hero-popular/video.jpg" alt="video">
+              <span class="category__text small--text">Видеонаблюдение</span>
+            </a>
+            <a href="#" class="category__block small small-mono">
+              <img src="img/hero/hero-popular/mono.jpg" alt="mono">
+              <span class="category__text small--text">Моноблоки</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sales hero__sales">
+      <div class="container">
+        <div class="product sales__microsoft">
+          <div class="product__sale sale">
+            <h2 class="sale__title">Скидки на ПО Майкрософт</h2>
+            <a href="#" class="sale__link">Посмотреть еще&nbsp;></a>
+          </div>
+          <div class="product__cards">
+            <div class="row">
+              <div class="col-lg-3 col-sm-1">
+                <div class="popular__card">
+                  <div class="popular__img">
+                    <img src="img/hero/hero-sales/microsoft.jpg" alt="card-image" class="popular__image">
+                    <span class="popular__comparing"></span>
+                    <span class="card__sale">-20%</span>
+                  </div>
+                  <div class="popcard__block">
+                    <div class="popcard popular__info">
+                      <h3 class="popcard__title">IP-камера 4Мп Hikvision DS-2CD2942F с объективом «рыбий глаз»
+                      </h3>
+                      <div class="popcard__price price">
+                        <span class="price__sale">616,80 руб</span>
+                        <span class="price__full"><s>854,00 руб</s></span>
+                      </div>
+                    </div>
+                    <div class="popcard__buttons btn-card">
+                      <div class="btn__count count">
+                        <span data-minus class="count__minus">-</span>
+                        <span data-sum class="count__sum">1</span>
+                        <span data-plus class="count__plus">+</span>
+                      </div>
+                      <button class="btn__basket"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-1">
+                <div class="popular__card">
+                  <div class="popular__img">
+                    <img src="img/hero/hero-sales/office.jpg" alt="card-image" class="popular__image">
+                    <span class="popular__comparing"></span>
+                    <span class="card__sale">-20%</span>
+                  </div>
+                  <div class="popcard__block">
+                    <div class="popcard popular__info">
+                      <h3 class="popcard__title">IP-камера 4Мп Hikvision DS-2CD2942F с объективом «рыбий глаз»
+                      </h3>
+                      <div class="popcard__price price">
+                        <span class="price__sale">616,80 руб</span>
+                        <span class="price__full"><s>854,00 руб</s></span>
+                      </div>
+                    </div>
+                    <div class="popcard__buttons btn-card">
+                      <div class="btn__count count">
+                        <span data-minus class="count__minus">-</span>
+                        <span data-sum class="count__sum">1</span>
+                        <span data-plus class="count__plus">+</span>
+                      </div>
+                      <button class="btn__basket"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-1">
+                <div class="popular__card">
+                  <div class="popular__img">
+                    <img src="img/hero/hero-sales/office.jpg" alt="card-image" class="popular__image">
+                    <span class="popular__comparing"></span>
+                    <span class="card__sale">-20%</span>
+                  </div>
+                  <div class="popcard__block">
+                    <div class="popcard popular__info">
+                      <h3 class="popcard__title">IP-камера 4Мп Hikvision DS-2CD2942F с объективом «рыбий глаз»
+                      </h3>
+                      <div class="popcard__price price">
+                        <span class="price__sale">616,80 руб</span>
+                        <span class="price__full"><s>854,00 руб</s></span>
+                      </div>
+                    </div>
+                    <div class="popcard__buttons btn-card">
+                      <div class="btn__count count">
+                        <span data-minus class="count__minus">-</span>
+                        <span data-sum class="count__sum">1</span>
+                        <span data-plus class="count__plus">+</span>
+                      </div>
+                      <button class="btn__basket"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-1">
+                <div class="popular__card">
+                  <div class="popular__img">
+                    <img src="img/hero/hero-sales/office.jpg" alt="card-image" class="popular__image">
+                    <span class="popular__comparing"></span>
+                    <span class="card__sale">-20%</span>
+                  </div>
+                  <div class="popcard__block">
+                    <div class="popcard popular__info">
+                      <h3 class="popcard__title">IP-камера 4Мп Hikvision DS-2CD2942F с объективом «рыбий глаз»
+                      </h3>
+                      <div class="popcard__price price">
+                        <span class="price__sale">616,80 руб</span>
+                        <span class="price__full"><s>854,00 руб</s></span>
+                      </div>
+                    </div>
+                    <div class="popcard__buttons btn-card">
+                      <div class="btn__count count">
+                        <span data-minus class="count__minus">-</span>
+                        <span data-sum class="count__sum">1</span>
+                        <span data-plus class="count__plus">+</span>
+                      </div>
+                      <button class="btn__basket"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product sales__bitrix">
+          <div class="product__sale sale">
+            <h2 class="sale__title">Скидки на продукты 1С-Битрикс</h2>
+            <a href="#" class="sale__link">Посмотреть еще&nbsp;></a>
+          </div>
+          <div class="product__cards">
+            <div class="row">
+              <div class="col-lg-3 col-sm-1">
+                <div class="popular__card">
+                  <div class="popular__img">
+                    <img src="img/hero/hero-sales/bitrixStart.jpg" alt="card-image" class="popular__image">
+                    <span class="popular__comparing"></span>
+                    <span class="card__sale">-20%</span>
+                  </div>
+                  <div class="popcard__block">
+                    <div class="popcard popular__info">
+                      <h3 class="popcard__title">IP-камера 4Мп Hikvision DS-2CD2942F с объективом «рыбий глаз»
+                      </h3>
+                      <div class="popcard__price price">
+                        <span class="price__sale">616,80 руб</span>
+                        <span class="price__full"><s>854,00 руб</s></span>
+                      </div>
+                    </div>
+                    <div class="popcard__buttons btn-card">
+                      <div class="btn__count count">
+                        <span data-minus class="count__minus">-</span>
+                        <span data-sum class="count__sum">1</span>
+                        <span data-plus class="count__plus">+</span>
+                      </div>
+                      <button class="btn__basket"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-1">
+                <div class="popular__card">
+                  <div class="popular__img">
+                    <img src="img/hero/hero-sales/bitrixStart.jpg" alt="card-image" class="popular__image">
+                    <span class="popular__comparing"></span>
+                    <span class="card__sale">-20%</span>
+                  </div>
+                  <div class="popcard__block">
+                    <div class="popcard popular__info">
+                      <h3 class="popcard__title">IP-камера 4Мп Hikvision DS-2CD2942F с объективом «рыбий глаз»
+                      </h3>
+                      <div class="popcard__price price">
+                        <span class="price__sale">616,80 руб</span>
+                        <span class="price__full"><s>854,00 руб</s></span>
+                      </div>
+                    </div>
+                    <div class="popcard__buttons btn-card">
+                      <div class="btn__count count">
+                        <span data-minus class="count__minus">-</span>
+                        <span data-sum class="count__sum">1</span>
+                        <span data-plus class="count__plus">+</span>
+                      </div>
+                      <button class="btn__basket"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-1">
+                <div class="popular__card">
+                  <div class="popular__img">
+                    <img src="img/hero/hero-sales/bitrixMob.jpg" alt="card-image" class="popular__image">
+                    <span class="popular__comparing"></span>
+                    <span class="card__sale">-20%</span>
+                  </div>
+                  <div class="popcard__block">
+                    <div class="popcard popular__info">
+                      <h3 class="popcard__title">IP-камера 4Мп Hikvision DS-2CD2942F с объективом «рыбий глаз»
+                      </h3>
+                      <div class="popcard__price price">
+                        <span class="price__sale">616,80 руб</span>
+                        <span class="price__full"><s>854,00 руб</s></span>
+                      </div>
+                    </div>
+                    <div class="popcard__buttons btn-card">
+                      <div class="btn__count count">
+                        <span data-minus class="count__minus">-</span>
+                        <span data-sum class="count__sum">1</span>
+                        <span data-plus class="count__plus">+</span>
+                      </div>
+                      <button class="btn__basket"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-1">
+                <div class="popular__card">
+                  <div class="popular__img">
+                    <img src="img/hero/hero-sales/bitrixMob.jpg" alt="card-image" class="popular__image">
+                    <span class="popular__comparing"></span>
+                    <span class="card__sale">-20%</span>
+                  </div>
+                  <div class="popcard__block">
+                    <div class="popcard popular__info">
+                      <h3 class="popcard__title">IP-камера 4Мп Hikvision DS-2CD2942F с объективом «рыбий глаз»
+                      </h3>
+                      <div class="popcard__price price">
+                        <span class="price__sale">616,80 руб</span>
+                        <span class="price__full"><s>854,00 руб</s></span>
+                      </div>
+                    </div>
+                    <div class="popcard__buttons btn-card">
+                      <div class="btn__count count">
+                        <span data-minus class="count__minus">-</span>
+                        <span data-sum class="count__sum">1</span>
+                        <span data-plus class="count__plus">+</span>
+                      </div>
+                      <button class="btn__basket"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product sales__monoblock">
+          <div class="product__sale sale">
+            <h2 class="sale__title">Скидки на Моноблоки</h2>
+            <a href="#" class="sale__link">Посмотреть еще&nbsp;></a>
+          </div>
+          <div class="product__cards">
+            <div class="row">
+              <div class="col-lg-3 col-sm-1">
+                <div class="popular__card">
+                  <div class="popular__img">
+                    <img src="img/hero/hero-sales/teslaoffise.jpg" alt="card-image" class="popular__image">
+                    <span class="popular__comparing"></span>
+                    <span class="card__sale">-20%</span>
+                  </div>
+                  <div class="popcard__block">
+                    <div class="popcard popular__info">
+                      <h3 class="popcard__title">IP-камера 4Мп Hikvision DS-2CD2942F с объективом «рыбий глаз»
+                      </h3>
+                      <div class="popcard__price price">
+                        <span class="price__sale">616,80 руб</span>
+                        <span class="price__full"><s>854,00 руб</s></span>
+                      </div>
+                    </div>
+                    <div class="popcard__buttons btn-card">
+                      <div class="btn__count count">
+                        <span data-minus class="count__minus">-</span>
+                        <span data-sum class="count__sum">1</span>
+                        <span data-plus class="count__plus">+</span>
+                      </div>
+                      <button class="btn__basket"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-1">
+                <div class="popular__card">
+                  <div class="popular__img">
+                    <img src="img/hero/hero-sales/teslaoffisplus.jpg" alt="card-image" class="popular__image">
+                    <span class="popular__comparing"></span>
+                    <span class="card__sale">-20%</span>
+                  </div>
+                  <div class="popcard__block">
+                    <div class="popcard popular__info">
+                      <h3 class="popcard__title">IP-камера 4Мп Hikvision DS-2CD2942F с объективом «рыбий глаз»
+                      </h3>
+                      <div class="popcard__price price">
+                        <span class="price__sale">616,80 руб</span>
+                        <span class="price__full"><s>854,00 руб</s></span>
+                      </div>
+                    </div>
+                    <div class="popcard__buttons btn-card">
+                      <div class="btn__count count">
+                        <span data-minus class="count__minus">-</span>
+                        <span data-sum class="count__sum">1</span>
+                        <span data-plus class="count__plus">+</span>
+                      </div>
+                      <button class="btn__basket"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-1">
+                <div class="popular__card">
+                  <div class="popular__img">
+                    <img src="img/hero/hero-sales/teslaofficelight.jpg" alt="card-image" class="popular__image">
+                    <span class="popular__comparing"></span>
+                    <span class="card__sale">-20%</span>
+                  </div>
+                  <div class="popcard__block">
+                    <div class="popcard popular__info">
+                      <h3 class="popcard__title">IP-камера 4Мп Hikvision DS-2CD2942F с объективом «рыбий глаз»
+                      </h3>
+                      <div class="popcard__price price">
+                        <span class="price__sale">616,80 руб</span>
+                        <span class="price__full"><s>854,00 руб</s></span>
+                      </div>
+                    </div>
+                    <div class="popcard__buttons btn-card">
+                      <div class="btn__count count">
+                        <span data-minus class="count__minus">-</span>
+                        <span data-sum class="count__sum">1</span>
+                        <span data-plus class="count__plus">+</span>
+                      </div>
+                      <button class="btn__basket"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-1">
+                <div class="popular__card">
+                  <div class="popular__img">
+                    <img src="img/hero/hero-sales/teslaoffisplus.jpg" alt="card-image" class="popular__image">
+                    <span class="popular__comparing"></span>
+                    <span class="card__sale">-20%</span>
+                  </div>
+                  <div class="popcard__block">
+                    <div class="popcard popular__info">
+                      <h3 class="popcard__title">IP-камера 4Мп Hikvision DS-2CD2942F с объективом «рыбий глаз»
+                      </h3>
+                      <div class="popcard__price price">
+                        <span class="price__sale">616,80 руб</span>
+                        <span class="price__full"><s>854,00 руб</s></span>
+                      </div>
+                    </div>
+                    <div class="popcard__buttons btn-card">
+                      <div class="btn__count count">
+                        <span data-minus class="count__minus">-</span>
+                        <span data-sum class="count__sum">1</span>
+                        <span data-plus class="count__plus">+</span>
+                      </div>
+                      <button class="btn__basket"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="new new__category">
+      <div class="container">
+        <div class="new__block">
+          <h2 class="new__title">Новые категории в каталоге</h2>
+          <a href="" class="new__link swipper-btn">В каталог</a>
+        </div>
+        <div class="grid-container">
+          <a href="#" class="small__first">
+            <div class="category__block small small-mono">
+              <img src="img/hero/hero-newcategory/printer.jpg" alt="newcategory-image">
+              <span class="category__text small--text">Принтеры и МФУ</span>
+            </div>
+          </a>
+          <a href="#" class="small__second">
+            <div class="category__block small small-mono">
+                <img src="img/hero/hero-newcategory/ip.jpg" alt="newcategory-image">
+                <span class="category__text small--text">IP телефония</span>
+              </div>
+          </a>
+          <a href="#" class="small__third">
+            <div class="category__block small small-mono">
+                <img src="img/hero/hero-newcategory/tehnika.jpg" alt="newcategory-image">
+                <span class="category__text small--text">Компьютерная техника</span>
+              </div>
+          </a>
+          <a href="#" class="small__four">
+            <div class="category__block small small-mono">
+                <img src="img/hero/hero-newcategory/ibp.jpg" alt="newcategory-image">
+                <span class="category__text small--text">ИБП и комплектующие</span>
+              </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="subscription hero__subscription">
+      <div class="container">
+        <div class="subscription__block">
+          <span class="subscription__text">Подпишитесь и получайте больше скидок на весь ассортимент наших товаров!</span>
+          <div class="subscription__button sub">
+            <form action="" class="sub__form">
+              <input class="sub__input" type="email" name="user__mail" id="user__mail" placeholder="Адрес электронной почты">
+              <button class="sub__btn" type="submit">Подписаться</button>
+            </form>
+            <span class="sub__privacy">Нажимая кнопку "Отправить", вы соглашаетесь с <a href="#">Политикой конфиденциальности</a></span>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantages hero__advantages">
+      <div class="container">
+        <div class="grid-container-advantages">
+          <div class="adv__expert expert">
+            <img src="img/hero/hero-advantages/experts.png" alt="experts" class="adv__image">
+            <h3 class="inginiring__title">Экспертные решения</h3>
+            <ul class="inginiring__list">
+              <li class="adv__list">установка, интеграция, дальнейшее обслуживание</li>
+              <li class="adv__list">экспертиза и консультации</li>
+            </ul>
+          </div>
+          <div class="adv__inginiring inginiring">
+            <img src="img/hero/hero-advantages/support.png" alt="experts" class="adv__image">
+            <h3 class="inginiring__title">Инженерная поддержка</h3>
+            <ul class="inginiring__list">
+              <li class="adv__list">поддержка по продуктам</li>
+              <li class="adv__list">работают специалисты с подтвержденными компетенциями от вендоров MikroTik, Microsoft, 1С-Битрикс, VMWave, 1C, Rittal</li>
+            </ul>
+          </div>
+          <div class="adv__light light">
+            <img src="img/hero/hero-advantages/order.png" alt="experts" class="adv__image">
+            <h3 class="inginiring__title">Легкое оформление заказа</h3>
+            <ul class="inginiring__list">
+              <li class="adv__list">быстрая регистрация на сайте</li>
+              <li class="adv__list">online каталог с подробным описанием продукта</li>
+              <li class="adv__list">отгрузочные документы по ЭДО</li>
+            </ul>
+          </div>
+          <div class="adv__warranty warranty">
+            <img src="img/hero/hero-advantages/garanty.png" alt="experts" class="adv__image">
+            <h3 class="inginiring__title">Гарантия качества</h3>
+            <ul class="inginiring__list">
+              <li class="adv__list">весь товар официально ввезен и имеет все необходимые сертификаты соответствия</li>
+            </ul>
+          </div>
+          <div class="adv__profesional profesional">
+            <img src="img/hero/hero-advantages/dashboard.png" alt="experts" class="adv__image">
+            <h3 class="inginiring__title">Профессионально решаем задачи по лицензированию</h3>
+            <ul class="inginiring__list">
+              <li class="adv__list">ПО Майкрософт</li>
+              <li class="adv__list">ПО 1с Битрикс</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="grid-container-footer">
+        <div class="footer__info">
+          <img src="img/footer/footer-logo.svg" alt="footer-logo" class="footer__logo">
+          <a href="#" class="swipper-btn footer__btn">В каталог</a>
+          <span class="footer__requisites">Частное унитарное предприятие по оказанию услуг "Елоу Сноу"
+            В торговом реестре с <span class="footer__red">23 ноября</span> 2020 г. УНП 192611771</span>
+        </div>
+        <nav class="footer__menu">
+          <ul class="footer__menu-links">
+            <li><a href="#" class="footer__menu-link">О магазине</a></li>
+            <li><a href="#" class="footer__menu-link">Оплата</a></li>
+            <li><a href="#" class="footer__menu-link">Доставка</a></li>
+            <li><a href="#" class="footer__menu-link">Гарантия</a></li>
+            <li><a href="#" class="footer__menu-link">Контакты</a></li>
+            <li><a href="#" class="footer__menu-link">Карта сайта</a></li>
+          </ul>
+          <span class="footer__copyright">© 2020 esnow.by Все права защищены.</span>
+        </nav>
+        <div class="footer__contacts">
+          <div class="footer__social">
+            <a href="#"><img src="img/footer/footer-fb.svg" alt="fb"></a>
+            <a href="#"><img src="img/footer/footer-inst.svg" alt="inst"></a>
+            <a href="#"><img src="img/footer/footer-vk.svg" alt="vk"></a>
+          </div>
+          <div class="footer__connect">
+            <a href="tel:+375173882177" class="footer__text">+375 (17) 388-21-77</a>
+            <a href="mailto:info@esnow.by" class="footer__text">info@esnow.by</a>
+            <span class="footer__text">пр. Независимости 169, офис 601, юг
+              220114 Минск, Республика Беларусь</span>
+          </div>
+          <span class="footer__dev">Разработка <a href="https://itspro.by/" class="footer__dev-link">ИТСПРО</a></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- menu-catalog -->
+
+
+
+
+
+  <!-- menu-catalog -->
+
+
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+  <script src="js/script.js" type="module"></script>
+</body>
+
+</html>
